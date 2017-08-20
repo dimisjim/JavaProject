@@ -1,0 +1,90 @@
+SERVICE_LIST
+{
+    SERVICE
+	{
+	    SERVICE_NAME "PrePaid #1"
+		TYPE PrepaidTelephoneService
+		MONTHLY_PRICE 10
+		FREE_CALLS 150
+		FREE_SMS 200
+		CALL_CHARGE 20
+		SMS_CHARGE 20
+		AVAILABLE_BALANCE 60
+	}
+	SERVICE
+	{
+	    SERVICE_NAME "PrePaid #2"
+		TYPE PrepaidTelephoneService
+		MONTHLY_PRICE 20
+		FREE_CALLS 250
+		FREE_SMS 300
+		CALL_CHARGE 20
+		SMS_CHARGE 20
+		AVAILABLE_BALANCE 50
+	}
+	SERVICE
+	{
+	    SERVICE_NAME "PrePaid #3"
+		TYPE PrepaidTelephoneService
+		MONTHLY_PRICE 20
+		FREE_CALLS 300
+		FREE_SMS 400
+		CALL_CHARGE 20
+		SMS_CHARGE 20
+		AVAILABLE_BALANCE 60
+	}
+	SERVICE
+	{
+	    SERVICE_NAME "Tel Contract #1"
+		TYPE ContractTelephoneService
+		MONTHLY_PRICE 20
+		FREE_CALLS 150
+		FREE_SMS 200
+		CALL_CHARGE 15
+		SMS_CHARGE 10
+	}
+	SERVICE
+	{
+	    SERVICE_NAME "Tel Contract #2"
+		TYPE ContractTelephoneService
+		MONTHLY_PRICE 35
+		FREE_CALLS 300
+		FREE_SMS 400
+		CALL_CHARGE 15
+		SMS_CHARGE 10
+	}
+	SERVICE
+	{
+	    SERVICE_NAME "Tel Contract #3"
+		TYPE ContractTelephoneService
+		MONTHLY_PRICE 50
+		FREE_CALLS 400
+		FREE_SMS 600
+		CALL_CHARGE 15
+		SMS_CHARGE 10
+	}
+	SERVICE
+	{
+	    SERVICE_NAME "Data to the max #1"
+		TYPE InternetService
+		MONTHLY_PRICE 15
+		FREE_DATA 1
+		DATA_CHARGE 0.5
+	}
+	SERVICE
+	{
+	    SERVICE_NAME "Data to the max #2"
+		TYPE InternetService
+		MONTHLY_PRICE 40
+		FREE_DATA 4
+		DATA_CHARGE 0.5
+	}
+	SERVICE
+	{
+	    SERVICE_NAME "Data to the max #3"
+		TYPE InternetService
+		MONTHLY_PRICE 60
+		FREE_DATA 8
+		DATA_CHARGE 0.5
+	}
+}
