@@ -1,5 +1,3 @@
-//DIMITRIS MORAITIDIS, 3100240
-//NIKI PAPAGORA, 3120140
 
 import java.io.BufferedReader;
 import java.io.File;
