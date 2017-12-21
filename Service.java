@@ -1,5 +1,3 @@
-//DIMITRIS MORAITIDIS, 3100240
-//NIKI PAPAGORA, 3120140
 
 public class Service {
 	private String name;
@@ -35,11 +33,11 @@ public class Service {
 
 	@Override
 	public String toString() {
-		return "Service with name: " + name + "\n" + "- monthlyCharge: " + monthlyCharge + "€";
+		return "Service with name: " + name + "\n" + "- monthlyCharge: " + monthlyCharge + "â‚¬";
 	}
 	
 	//-----------Info about fields---------//
 	
-	//monthly charge: in €
+	//monthly charge: in â‚¬
 	
 }
