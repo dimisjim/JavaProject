@@ -1,5 +1,4 @@
-//DIMITRIS MORAITIDIS, 3100240
-//NIKI PAPAGORA, 3120140
+
 
 public class TelephoneService extends Service {
 	private int freeCalls, freeSMS, callCharge, sMSCharge;
@@ -56,8 +55,8 @@ public class TelephoneService extends Service {
 	@Override
 	public String toString() {
 		return "TelephoneService with name: " + getName()+ "\n" + "- monthlyCharge: "
-				+ getMonthlyCharge() + "€"+ "\n"+"- freeCalls: " + freeCalls + " minutes"+ "\n"+"- freeSMS: " + freeSMS
-				+ " SMS"+ "\n"+"- callCharge: " + callCharge*0.01 + "€/minute"+ "\n"+", sMSCharge: " + sMSCharge*0.01 + "€/SMS";
+				+ getMonthlyCharge() + "â‚¬"+ "\n"+"- freeCalls: " + freeCalls + " minutes"+ "\n"+"- freeSMS: " + freeSMS
+				+ " SMS"+ "\n"+"- callCharge: " + callCharge*0.01 + "â‚¬/minute"+ "\n"+", sMSCharge: " + sMSCharge*0.01 + "â‚¬/SMS";
 	}
 	
 	//-----------Info about fields---------//
