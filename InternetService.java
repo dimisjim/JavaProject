@@ -1,5 +1,3 @@
-//DIMITRIS MORAITIDIS, 3100240
-//NIKI PAPAGORA, 3120140
 
 public class InternetService extends Service {
 	private double freeData, dataCharge;
@@ -42,8 +40,8 @@ public class InternetService extends Service {
 	@Override
 	public String toString() {
 		return "InternetService with name: " + getName() +"\n" + "- monthlyCharge: " + 
-				getMonthlyCharge() + "€"+"\n"+"- freeData: " + freeData + "GB"+"\n"+"- dataCharge: " 
-				+ dataCharge*0.01 + "€/MB"+"\n"+"- discount: " + discount*100 + "%";
+				getMonthlyCharge() + "â‚¬"+"\n"+"- freeData: " + freeData + "GB"+"\n"+"- dataCharge: " 
+				+ dataCharge*0.01 + "â‚¬/MB"+"\n"+"- discount: " + discount*100 + "%";
 	}
 	
 	//-----------Info about fields---------//
