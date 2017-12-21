@@ -33,7 +33,7 @@ public class mainApp extends JFrame {
 	private JScrollPane jemptyLabel;
 	private FileNameExtensionFilter filter;
 	
-	private final Object aboutMessage = "Program created by: \n\n Dimitris Moraitidis, 3100240 \n Niki Papagora, 3120140";
+	private final Object aboutMessage = "Program created by: \n\n Dimitris *********, 31****** \n Niki ********, 3*******";
 	private final Object helpMessage = "How to use this application:\n\n1)Load services txt from menu,\n2)Load contracts txt,"
 			+ "\n3)Perform any other operation made available,\n4)Save any changes made to contracts txt before exiting app.";
 	private Object sloadMessage;
