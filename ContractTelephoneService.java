@@ -1,5 +1,3 @@
-//DIMITRIS MORAITIDIS, 3100240
-//NIKI PAPAGORA, 3120140
 
 public class ContractTelephoneService extends TelephoneService{
 	private final double discount = 0.2;
@@ -21,8 +19,8 @@ public class ContractTelephoneService extends TelephoneService{
 	@Override
 	public String toString() {
 		return "ContractTelephoneService with name: " + getName()+"\n" + "- monthlyCharge: "
-				+ getMonthlyCharge() + "€"+"\n" +"- freeCalls: " + getFreeCalls() + " minutes"+"\n"+"- freeSMS: " + getFreeSMS()
-				+ " SMS"+"\n"+"- callCharge: " + getCallCharge()*0.01 + "€/minute"+"\n"+"- sMSCharge: " + getSMSCharge()*0.01 + "€/SMS"+"\n"
+				+ getMonthlyCharge() + "â‚¬"+"\n" +"- freeCalls: " + getFreeCalls() + " minutes"+"\n"+"- freeSMS: " + getFreeSMS()
+				+ " SMS"+"\n"+"- callCharge: " + getCallCharge()*0.01 + "â‚¬/minute"+"\n"+"- sMSCharge: " + getSMSCharge()*0.01 + "â‚¬/SMS"+"\n"
 				+"- discount: " + discount*100 + "%";
 	}
 	
