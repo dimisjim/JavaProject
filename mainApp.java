@@ -1,5 +1,3 @@
-//DIMITRIS MORAITIDIS, 3100240
-//NIKI PAPAGORA, 3120140
 
 import javax.swing.filechooser.FileNameExtensionFilter;
 import javax.swing.table.DefaultTableCellRenderer;
@@ -312,7 +310,7 @@ public class mainApp extends JFrame {
         			
         			data[k][0] = String.valueOf(services.get(i).getClass()).substring(6);
             		data[k][1] = services.get(i).getName();
-            		data[k][2] = services.get(i).getMonthlyCharge() + "€";
+            		data[k][2] = services.get(i).getMonthlyCharge() + "Â€";
             		data[k][3] = "Create Contract";
             		k++;
         		}
@@ -936,11 +934,11 @@ public class mainApp extends JFrame {
     	    	System.out.println(z);
     	    	if(contracts.get(z).getTypeOfService() instanceof PrepaidTelephoneService){
     	    		JOptionPane.showMessageDialog
-        	    	(null, "Contract with code #" + s + " has balance: " + contracts.get(z).calcCost()+"€", "Balance Left", JOptionPane.INFORMATION_MESSAGE);
+        	    	(null, "Contract with code #" + s + " has balance: " + contracts.get(z).calcCost()+"Â€", "Balance Left", JOptionPane.INFORMATION_MESSAGE);
     	    	}
     	    	else{
     	    		JOptionPane.showMessageDialog
-        	    	(null, "Contract with code #" + s + " has cost: " + contracts.get(z).calcCost()+"€", "Monthly Cost", JOptionPane.INFORMATION_MESSAGE);
+        	    	(null, "Contract with code #" + s + " has cost: " + contracts.get(z).calcCost()+"Â€", "Monthly Cost", JOptionPane.INFORMATION_MESSAGE);
     	    	}
     	    	
     	    }
